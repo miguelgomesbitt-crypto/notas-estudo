@@ -15,4 +15,5 @@ Em java scrips precisa usar aspas quando é texto
 texto = string
 juntar texto = concatenar
 exemplo: ("1"+"1")
-
+= é = a atribuiçaos
+nome de arquivo,pasta NUNCA colocar assentos
