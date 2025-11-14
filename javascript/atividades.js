@@ -1,6 +1,6 @@
- //faça um programa para subitrair dois numeros
- const numero1 = 200
- const numero2 = 125
+//faça um programa para subitrair dois numeros
+const numero1 = prompt("Digite um numero: ")
+const numero2 = prompt("Digite outro numero: ")
 
- console.log(numero1 - numero2)
+alert(numero1 - numero2)
 

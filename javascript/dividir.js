@@ -1,10 +1,10 @@
-const numero1 = 10
-const numero2 = 2
+//o prompt serve para o usuario digitar algo
 
-const resultado = numero1/numero2
+const numero1 = prompt("Digite um numero: ")
+const numero2 = prompt("Digite outro numero: ")
 
-console.log('dividindo dois numeros')
-console.log('dividindo numero 10 e numero 2')
+const resultado = numero1 / numero2
 
-console.log(resultado)
-
+alert('Dividindo dois numeros: ')
+alert('Dividindo ' + numero1 + 'por ' + numero2)
+alert(resultado)

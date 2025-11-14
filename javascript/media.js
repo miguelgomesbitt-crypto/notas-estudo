@@ -1,7 +1,7 @@
-let n1 = 5
-let n2 = 10
-let n3 = 15
+let n1 = prompt("Digite um numero: ")
+let n2 = prompt("Digite outro numero: ")
+let n3 = prompt("Agora digite mais um numero: ")
 
-let media = (n1 + n2 + n3) /3
+let media = (n1 + n2 + n3) / 3
 
-console.log("a media é: " + media)
+alert("a media é: ")
