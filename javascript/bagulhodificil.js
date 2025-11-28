@@ -1,6 +1,11 @@
-const fahrenheit = (25 * 9/5) + 32
-const temperaturacelsius = 25
+function fahrenheitParaCelsius(fahrenheit) {
+    //Formula para a conversão
+    let celsius = (fahrenheit - 32) * 5 / 9;
+    return celsius;
+}
 
-const temperaturafahrenheit = celsiusparafahrenheit(temperaturacelsius)
+//exemplo de uso
+let temperaturaFahrenheit = 68;
+let temperaturaCelsius = fahrenheitParaCelsius(temperaturaFahrenheit);
 
-console.log("temperaturacelsius é igual a: " + temperaturafahrenheit.tofixed(2))
+console.log(`${temperaturaFahrenheit}°F é igual a ${temperaturaCelsius}°C`); // Exibe: 68°F é igual a 20°C
